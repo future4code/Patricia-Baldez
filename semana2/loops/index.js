@@ -87,7 +87,18 @@
 
 // e) Escreva um programa que imprima no console o maior e o menor números contidos no array original
 
-const arrayOriginal = [5, 10, 15, 20, 25]
+ const arrayOriginal = [5, 10, 15, 20, 25]
+// function imprimeArrayOriginal (arrayOriginal){
+// for(let valor of arrayOriginal){
+// console.log (valor)
+// }
+// }
+// imprimeArrayOriginal(arrayOriginal)
+
 function imprimeArrayOriginal (arrayOriginal){
-for(let valorArrayOriginal of arrayOriginal
-}
+    for(let valor of arrayOriginal){
+    console.log (valor/10)
+    }
+    }
+    imprimeArrayOriginal(arrayOriginal)
+
