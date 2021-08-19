@@ -95,9 +95,16 @@
 // }
 // imprimeArrayOriginal(arrayOriginal)
 
+// function imprimeArrayOriginal (arrayOriginal){
+//     for(let valor of arrayOriginal){
+//     console.log (valor/10)
+//     }
+//     }
+//     imprimeArrayOriginal(arrayOriginal)
+
 function imprimeArrayOriginal (arrayOriginal){
     for(let valor of arrayOriginal){
-    console.log (valor/10)
+    console.log (valor)
     }
     }
     imprimeArrayOriginal(arrayOriginal)
