@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../Downloads/aula-html-maryam"
+		},
+		{
+			"path": "../../../../../Downloads/aula-html-template"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "template-loja"
+	}
+}
