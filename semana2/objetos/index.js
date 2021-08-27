@@ -1,114 +1,166 @@
-//1)const filme = {
-	//nome: "Auto da Compadecida", 
-	//ano: 2000, 
-	//elenco: [
-		//"Matheus Nachtergaele", "Selton Mello", "Denise Fraga", 
-		//"Virginia Cavendish"
-		//], 
-//	transmissoesHoje: [
-	//	{canal: "Telecine", horario: "21h"}, 
-	//	{canal: "Canal Brasil", horario: "19h"}, 
-	//	{canal: "Globo", horario: "14h"}
-	//	]
-//}*
+/* =======================
+Exerícios de Interpretação
+========================== */
+// Exerício 1
+// (a)
+// "Matheus Nachtergaele"
+// "Virginia Cavendish"
+// { canal: "Globo", horario: "14h" }
 
-//console.log(filme.elenco[0])
-//console.log(filme.elenco[filme.elenco.length - 1])
-//console.log(filme.transmissoesHoje[2])*/
+// Exercício 2
+// (a)
+// { nome: "Juca", idade: 3, raca: "SRD" }
+// { nome: "Juba", idade: 3, raca: "SRD" }
+// { nome: "Jubo", idade: 3, raca: "SRD" }
 
-// Live reload enabled. 
-//1.Matheus Nachtergaele index.js:15:9
-//2.Virginia Cavendish index.js:16:9
-​//3.canal: "Globo" horario: "14h"
+// (b)
+// A sintaxe três pontos antes de um objeto ou array
+// é utilizada no Spread Operator (...), que faz uma
+// cópia dos mesmos
 
-//2)const cachorro = {
-	//nome: "Juca", 
-	//idade: 3, 
-	//raca: "SRD"
-//}
+// Exercício 3
+// (a)
+// false
+// undefined
 
-//const gato = {...cachorro, nome: "Juba"}
+// (b)
+// A função minhaFuncao recebe um objeto e o nome
+// de uma propriedade que o objeto possua ou não
+// e retorna o valor dela.
 
-//const tartaruga = {...gato, nome: gato.nome.replaceAll("a", "o")}
+// O primeiro console log exemplifica a chamada
+// da minhaFuncao com uma propriedade existente,
+// já o segundo console log mostra que é retornado
+// undefined quando o objeto não possui a propriedade
+// passada como argumento
 
-//console.log(cachorro)
-//console.log(gato)
-//console.log(tartaruga)*/
+/* =======================
+Exerícios de Desenvolvimento de Código
+========================== */
 
-//Este deu erro
+// 1
+// (a)
 
-//3)function minhaFuncao(objeto, propriedade) {
-	//return objeto[propriedade]
-//}
+// const pessoa = {
+//   nome: "Amanda",
+//   apelidos: ["Amandinha", "Mandinha", "Mandi"]
+// };
 
-//const pessoa = {
-  //nome: "Caio", 
- // idade: 23, 
- // backender: false
-//}
+// function imprimePessoa(objeto) {
+//   console.log(
+//     `Eu sou ${objeto.nome}, mas pode me chamar de: ${objeto.apelidos[0]}, ${objeto.apelidos[1]} ou ${objeto.apelidos[2]}`
+//   );
+// }
 
-//console.log(minhaFuncao(pessoa, "backender"))
-//console.log(minhaFuncao(pessoa, "altura"))*/
-//Esta dando erro
+// imprimePessoa(pessoa);
 
-//1.
-//a) Crie um objeto. Ele deve conter duas propriedades: nome (string) e apelidos (um array que sempre terá exatamente três apelidos). Depois, escreva uma função que recebe como entrada um objeto e imprime uma mensagem no modelo abaixo: 
+// (b)
 
-// Exemplo de entrada
-//const pessoa = {
-  // nome: "Amanda", 
-  // apelidos: ["Amandinha", "Mandinha", "Mandi"]
-//}
+// const novaPessoa = { ...pessoa, apelidos: ["Amands", "Mandis", "AMANDA"] };
 
-//Exemplo de saída
-//"Eu sou Amanda, mas pode me chamar de: Amandinha, Mandinha ou Mandi*/
+// imprimePessoa(novaPessoa);
 
+// Exercício 2
+// (a)
 
-//const objeto = {
-   // nome: "Amanda",
-   // apelidos: ["Amandinha","Mandinha","Mandi"],
-//}
-//const frase = (`Eu sou ${objeto.nome}, mas pode me chamar de: ${objeto.apelidos[0]}, ${objeto.apelidos[1]} //ou ${objeto.apelidos[2]}.`)
+// const pessoa = {
+//   nome: "Bruno",
+//   idade: 23,
+//   profissao: "Instrutor"
+// };
 
-//console.log(`Eu sou ${objeto.nome}, mas pode me chamar de: ${objeto.apelidos[0]}, ${objeto.apelidos[1]} ou $///{objeto.apelidos[2]}.`)
+// (b)
 
-//2)
-    //const pessoa = {
-       // nome: "Bruno", 
-      //idade: 23, 
-       // profissao: "Instrutor"
-    //}
-   // const pessoa2 = {
-       // nome: "Patricia", 
-      //idade: 35, 
-        //profissao: "Estudante"
-   // }    
-    //minhaFuncao(pessoa, pessoa2)=>
-    //return array [nome, nome.lenght, idade, profissão, profissão.lenght]
-    //console.log (minhaFuncao())
-    
-    // Retorno: ["Bruno", 5, 23, "Instrutor", 9]
+// Retorno: ["Bruno", 5, 23, "Instrutor", 9]
 
-//3)
-const carrinho = []
+// function imprimeInformacoes(individuo) {
+//   return [
+//     individuo.nome,
+//     individuo.nome.length,
+//     individuo.idade,
+//     individuo.profissao,
+//     individuo.profissao.length
+//   ];
+// }
 
-const fruta1 = {
-nome: "morango",
-disponibilidade: true
-}
-const fruta2 = {
-    nome: "Abacaxi",
-    disponibilidade: true
-}
-cont frura3 = {
-    nome: "melão",
-    disponibilidade: true
+// console.log(imprimeInformacoes(pessoa));
 
-}
+// Exercício 3
+// (a)
+// const carrinho = [];
 
-function funcaoFrutas(){
-    carrinho.puch (fruta1, fruta2, fruta3)
-    return carrinho
-}
+// (b)
+// const abacaxi = {
+//   nome: "abacaxi",
+//   disponibilidade: true
+// };
 
-console.log(carrinho)
+// const melancia = {
+//   nome: "melancia",
+//   disponibilidade: true
+// };
+
+// const tomate = {
+//   nome: "tomate",
+//   disponibilidade: true
+// };
+
+// (c)
+// function adicionaFrutaNoCarrinho(fruta) {
+//   carrinho.push(fruta);
+// }
+
+// adicionaFrutaNoCarrinho(abacaxi);
+// adicionaFrutaNoCarrinho(melancia);
+// adicionaFrutaNoCarrinho(tomate);
+
+// (d)
+// console.log(carrinho);
+
+/* =======================
+Desafios
+========================== */
+
+// 1
+// function criaPessoa() {
+//   const pessoa = {
+//     nome: prompt("Nome da pessoa:"),
+//     idade: Number(prompt("Idade da pessoa:")),
+//     profissao: prompt("Profissão da pessoa:")
+//   };
+
+//   console.log(pessoa);
+//   console.log(typeof pessoa);
+// }
+
+// criaPessoa()
+
+// 2
+// function comparaAnoDeLancamento(primeiroFilme, segundoFilme) {
+//   return `O primeiro filme foi lançado antes do segundo? ${
+//     primeiroFilme.anoDeLancamento < segundoFilme.anoDeLancamento
+//   }
+// O primeiro filme foi lançado no mesmo ano do segundo? ${
+//     primeiroFilme.anoDeLancamento === segundoFilme.anoDeLancamento
+//   }`;
+// }
+
+// const matrix = {
+//   nome: "Matrix",
+//   anoDeLancamento: 1999
+// };
+
+// const johnWick = {
+//   nome: "John Wick",
+//   anoDeLancamento: 2014
+// };
+
+// console.log(comparaAnoDeLancamento(matrix, johnWick));
+
+// 3
+// function inverteDisponibilidade(fruta) {
+//   return {...fruta, disponibilidade: !fruta.disponibilidade}
+// }
+
+// console.log(inverteDisponibilidade(abacaxi))
+// console.log(inverteDisponibilidade(inverteDisponibilidade(abacaxi)))

@@ -1,3 +1,5 @@
+
+
 /* Exercício 1*/
 
 /*let array
@@ -89,6 +91,7 @@ console.log (array)
 
 //______________________________________________________________________________________________//
 
+
 // EXERCICIOS DE INTERPRETACAO DO CODIGO
 
 // EXERCICIO 1
@@ -175,4 +178,11 @@ const comidasPreferidas = [
   const indexAbabaxi = frutas.indexOf("Abacaxi");
   const tamanhoArray = frutas.length;
   
+
+  console.log("Index abacaxi: ", indexAbabaxi, "tamanho do array:", tamanhoArray);
+  
+
+
+
+
   console.log("Index abacaxi: ", indexAbabaxi, "tamanho do array:", tamanhoArray);
