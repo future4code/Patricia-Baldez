@@ -100,6 +100,7 @@ console.log (array)
 
 
 
+
   // a.
   // const listaDeTarefas = []
   // const primeiraTarefa = prompt("Digite uma tarefa")
@@ -143,3 +144,4 @@ console.log (array)
 
 
   console.log("Index abacaxi: ", indexAbabaxi, "tamanho do array:", tamanhoArray);
+
