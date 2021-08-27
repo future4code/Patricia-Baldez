@@ -1,6 +1,5 @@
 
 
-  
 
 /* Exercício 1*/
 
@@ -93,6 +92,7 @@ console.log (array)
 
 //______________________________________________________________________________________________//
 
+
 // EXERCICIOS DE INTERPRETACAO DO CODIGO
 
 // EXERCICIO 1
@@ -145,6 +145,17 @@ const comidasPreferidas = [
   
   // EXERCICIO 3
   
+=======
+
+// EXERCICIOS DE INTERPRETACAO DO CODIGO
+
+
+  
+
+
+
+
+
   // a.
   // const listaDeTarefas = []
   // const primeiraTarefa = prompt("Digite uma tarefa")
@@ -165,6 +176,7 @@ const comidasPreferidas = [
   // console.log(listaDeTarefas)
   
   // DESAFIOS
+
   
   // 1.
   
@@ -180,3 +192,29 @@ const comidasPreferidas = [
   const tamanhoArray = frutas.length;
   
   console.log("Index abacaxi: ", indexAbabaxi, "tamanho do array:", tamanhoArra
+=======
+  
+  // 1.
+  
+  // const minhaFrase = "Eu amo Javascript!"
+  // const minhaFraseArray = minhaFrase.split(" ")
+  // console.log(minhaFraseArray)
+  
+  // 2.
+  
+  const frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"];
+  
+  const indexAbabaxi = frutas.indexOf("Abacaxi");
+  const tamanhoArray = frutas.length;
+  
+
+  console.log("Index abacaxi: ", indexAbabaxi, "tamanho do array:", tamanhoArray);
+
+  
+
+
+
+
+  console.log("Index abacaxi: ", indexAbabaxi, "tamanho do array:", tamanhoArray);
+
+
