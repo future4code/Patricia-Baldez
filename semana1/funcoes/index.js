@@ -1,4 +1,6 @@
 
+
+
 //EXERCÍCIO DE INTERPRETAÇÃO
 //1
 
@@ -195,3 +197,4 @@ iii. `Cenouras crescem na terra`*/
 //return `Eu sou ${nome}, tenho ${idade} anos, moro em ${estado} e sou ${profissao}`
 //}
 //onsole.log (imprimeDados("Patricia", "35", "Rio Grande do Sul", "Es
+
