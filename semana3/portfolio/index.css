@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+background: #000000;
+font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+width: 1000px;
+}
+
+.fotocapa {
+height: 30%;
+width: 30%;
+}
+
+#menu {
+background: #c0c0c0;;
+padding: 18px;
+text-align: center;
+
+}
+
+#conteudo {
+padding: 10px;
+color:#c0c0c0;
+}
+
+#rodape {
+text-align: center;
+color: #c0c0c0;
+}
+
+.fotodev {
+    width: 50%; 
+    
+    }
+.redes {
+text-align: center;
+width: 100px; 
+
+}

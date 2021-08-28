@@ -52,7 +52,8 @@ div img {
 
 .container {
     height: 500px;
-    text-align: center;
+    margin-top: 0;
+  
 }
 
 .icone {
@@ -65,18 +66,22 @@ div img {
   *  ESTILOS HOME 
   *
   **/
-
+ 
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    align-items: center;
+    justify-content: center;
 }
 
 #container-de-descricao>ol {
     padding: 15px 0px;
+    align-items: center;
 }
-
+  
 #container-para-comprar {
     background-color: #e7eb90;
+    align-items: center;
 }
 
 #container-para-comprar>p {
@@ -84,7 +89,6 @@ div img {
     padding: 100px 0;
     font-size: 60px;
 }
-
 
 /**
   *
@@ -123,8 +127,12 @@ td button {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin: 0 auto;
+    text-align: center;
+   
 }
 
 #back-button:hover {
     background-color: #635a3d
+   
 }
