@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Downloads/flex-grid-maryam"
+		},
+		{
+			"path": "../../../Downloads/template-flex-grid"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flex-grid"
+	}
+}

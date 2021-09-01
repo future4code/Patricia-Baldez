@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../flex-grid"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "labetube"
+	}
+}
