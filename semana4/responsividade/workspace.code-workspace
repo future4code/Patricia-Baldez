@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../semana4"
+		},
+		{
+			"path": "../../../Downloads/maryam-responsividade"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "semana4"
+	}
+}
