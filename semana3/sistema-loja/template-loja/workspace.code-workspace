@@ -1,11 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": ".."
 		},
 		{
 			"path": "../../../../exercicios aula 12 labenu css loja"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sistema-loja"
+	}
 }
