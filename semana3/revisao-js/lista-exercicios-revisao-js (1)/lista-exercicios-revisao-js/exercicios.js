@@ -6,21 +6,36 @@ console.log(inverteArray([13, 12, 41, 15, 10, 16, 23, 8, 0]))
 
 // EXERCÍCIO 02
 function retornaNumerosParesElevadosADois(array) {
-arrayFiltrado=array.filter((valor)=>valor % 2 ===0);
-let (i of arrayFiltrado);
-arrayFiltrado[i]=arrayFiltrado[i]*arrayFiltrado[i];
-return arrayFiltrado;
-
+  let parElevadosADois =[];
+  for (let i = 0;i< array.length;i++){
+    if (array[i]%2 === 0){
+      parElevadosADois.push(array[i]**2)
+    }
+  }
+  return parElevadosADois
 }
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
-
+  let par =[];
+  for (let i = 0;i< array.length;i++){
+    if (array[i]%2 === 0){
+      par.push(array[i])
+    }
+  }
+  return par
 }
+
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
-
+  let maiorNumero = array[0]
+  for (let i = 0;i < array.length;i++) {
+    if (maiorNumero < array[i]) {
+      maiorNumero = array[i]
+    }
+  }
+  return maiorNumero
 }
 
 // EXERCÍCIO 05
@@ -35,7 +50,13 @@ function retornaExpressoesBooleanas() {
 
 // EXERCÍCIO 07
 function retornaNNumerosPares(n) {
-
+  let par =[];
+  for (let i = 0;i< n.length;i++){
+    if (n[i]%2 === 0){
+      par.push(n[i])
+    }
+  }
+  return par
 }
 
 // EXERCÍCIO 08
