@@ -24,7 +24,7 @@ class App extends React.Component {
           fotoPost={'https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?cs=srgb&dl=pexels-bess-hamiti-35537.jpg&fm=jpg'}
         />
         <Post
-          nomeUsuario={'mariana'}
+          nomeUsuario={'joao'}
           fotoUsuario={'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg'}
           fotoPost={'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg'}
         />
