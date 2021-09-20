@@ -7,21 +7,30 @@ body{
 background: #000000;
 font: 16px Arial, Helvetica, sans-serif;
 }
+a {
+color: #4b566a;
+text-decoration: none;
+font-weight: bold;
+padding: 5px;
+
+}
 
 #principal {
-width: 1000px;
+width: 900px;
+
 }
 
 .fotocapa {
 height: 30%;
 width: 30%;
+border-radius: 200px;
 }
 
 #menu {
-background: #c0c0c0;;
+background: #dfdcdc;
 padding: 18px;
 text-align: center;
-
+border-radius: 20px;
 }
 
 #conteudo {
