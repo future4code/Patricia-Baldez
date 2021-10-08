@@ -34,7 +34,7 @@ const MiniMatchIcon = styled.img`
 `;
 
 const ClearMatches = props => {
-    const [profile, setProfile] = useState({});
+    const [perfil, setPerfil] = useState({});
     
     useEffect(() => {
       }, []);  
