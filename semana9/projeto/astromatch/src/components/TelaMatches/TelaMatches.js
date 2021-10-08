@@ -2,10 +2,11 @@ import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
 import Favorito from "./components/img/";
-import BotaoCertinho from "../BotaoCertinho.svg"
-import { createMuiTheme, MuiThemeProvider } from "@material-ui/core";
+// import BotaoCertinho from "../BotaoCertinho.svg"
+import { CriarTema, ProvidenciarTema } from "@material-ui/core";
 
-const theme = createMuiTheme({
+
+const tema = CriarTema({
     palette: {
       primary: {
         main: "rgb(247,92,3)"
@@ -86,7 +87,7 @@ const ListText = styled.p`
   user-select: none;
 `;
 
-const TelaMatches = props => {
+const TelaMatches = (props) => {
     const [matches, setMatches] = useState([])
 
     useEffect(() => {
@@ -109,7 +110,7 @@ const TelaMatches = props => {
     }
 
     return (
-        <MuiThemeProvider theme={theme}>
+        <ProvidenciarTema Tema={Tema}>
             <div>
                 <div>
                     <BackButton src={BotaoCertinho} onClick={props.changePage}/>
@@ -132,7 +133,7 @@ const TelaMatches = props => {
                     })}
                 </List>
             </div>
-        </MuiThemeProvider>
+        </ProvidenciarTema>
         
     )
 }

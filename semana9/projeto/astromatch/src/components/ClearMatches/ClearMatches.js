@@ -42,7 +42,7 @@ const ClearMatches = props => {
     const clearMatches = () => {
         axios
         .put(
-            `https://us-central1-missao-newton.cloudfunctions.net/astroMatch/renata-karato-mello/clear`, {
+            `https://us-central1-missao-newton.cloudfunctions.net/astroMatch/:aluno/clear`, {
                 id: profile.id
             }
         )

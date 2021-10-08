@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import TelaPerfil from "./components/TelaPerfil";
-import TelaMatches from "./components/TelaMatches";
+import React, { useState } from "react"
+import styled from "styled-components"
+import TelaPerfil from "./components/TelaPerfil/TelaPerfil"
+import TelaMatches from "./components/TelaMatches/TelaMatches"
+import ClearMatches from "./components/ClearMatches/ClearMatches"
 
 const MainContainer = styled.div`
   width: 35vw;
@@ -51,7 +52,7 @@ const App = (props) => {
       <LogoImg src={Logo} />
       {trocarDeTela()}
       <div>
-        <ClearMatches />
+        <ClearMatches/>
       </div>
     </MainContainer>
   );
