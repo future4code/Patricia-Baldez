@@ -1,61 +1,16 @@
-import React, { useState } from "react"
-import styled from "styled-components"
-import TelaPerfil from "./components/TelaPerfil/TelaPerfil"
-import TelaMatches from "./components/TelaMatches/TelaMatches"
-import ClearMatches from "./components/ClearMatches/ClearMatches"
+import React from "react"
 
-const MainContainer = styled.div`
-  width: 35vw;
-  height: 90vh;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 20px;
-  background-color: white;
-`;
+import Main from "./components/Main/Main";
+import ResetButton from "./components/ResetButton/ResetButton"
 
-const LogoImg = styled.img`
-  width: 200px;
-  position: fixed;
-  top: 40px;
-  right: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-`;
 
-const App = (props) => {
-  const [telaPerfil, setTelaPerfil] = useState(true);
-
-  const onClickTrocarDeTela = () => {
-    setTelaPerfil(!telaPerfil);
-  };
-
-  const trocarDeTela = () => {
-    if (telaPerfil) {
-      return (
-        <div>
-          <TelaPerfil changePage={onClickTrocarDeTela} />
-        </div>
-      )
-    } else {
-      return (
-        <div>
-          <TelaMatches changePage={onClickTrocarDeTela} />
-        </div>
-      );
-    }
-  };
-
+export default function App() {
+  
   return (
-    <MainContainer>
-      <LogoImg src={Logo} />
-      {trocarDeTela()}
-      <div>
-        <ClearMatches/>
-      </div>
-    </MainContainer>
+    <div>
+      <Main/>
+      <ResetButton/>
+      
+    </div>
   );
-};
-
-export default App;
+}
