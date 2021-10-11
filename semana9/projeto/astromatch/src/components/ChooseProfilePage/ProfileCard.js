@@ -8,6 +8,7 @@ border: 1px solid black;
 const ProfilePicture = styled.img`
 width: 100%;
 display: block;
+max-height: 300px;
 `
 const ProfileInfo = styled.div`
 padding: 0 16px;
@@ -15,11 +16,10 @@ padding: 0 16px;
 function ProfileCard (props) {
      const profile = props.profile
     return (
-        
             <ProfileCardContainer>
             <ProfilePicture src={profile.photo}/>
             <ProfileInfo>
-            <p> {profile.name},{profile.age} </p>
+            <p> {profile.name}, {profile.age} </p>
             <p> {profile.bio} </p>
             </ProfileInfo>
             </ProfileCardContainer>

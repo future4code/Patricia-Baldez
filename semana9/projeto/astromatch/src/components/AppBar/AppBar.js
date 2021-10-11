@@ -9,13 +9,13 @@ align-items: center;
 padding: 0 8px;
 `
 
-function AppBar (){
+function AppBar (props){
     return (
         <div>
             <AppBarContainer>
-            <button>Escolher </button>
+            <button onClick = {props.goToChooseProfilePage}>Escolher </button>
             <p>astromatch</p>
-            <button>Lista</button>
+            <button onClick = {props.goToMatchListPage}>Lista</button>
             </AppBarContainer>
         </div>
     )
