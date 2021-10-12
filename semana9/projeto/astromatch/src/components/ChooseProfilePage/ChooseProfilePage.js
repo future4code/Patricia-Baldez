@@ -12,6 +12,11 @@ function ChooseProfilePage (){
         })
 
     }
+    const chooseProfile = () => {
+        const body = {
+            choise: false,
+            id: profileToChoose.id
+    }
         
     useEffect(() => {
         getProfileToChoose()
