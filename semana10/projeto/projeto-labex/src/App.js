@@ -6,22 +6,37 @@ import LoginPage from './Pages/LoginPage';
 import AdminHomePage from "./Pages/AdminHomePage";
 import TripDetailsPage from './Pages/TripDetailsPage';
 import CreateTripPage from './Pages/CreateTripPage';
+import {BrowserRouter, Switch, Route, Router} from "react-router-dom";
 
-
-
-function App() {
+export default function App() {
   return (
-    <div>
+    <BrowserRouter>
+    <Switch>
+      
+      <Route exact path = {"/"}>
       <HomePage/>
+      </Route>
+      <Route exact path ={"/ListTripsPage"}>
       <ListTripsPage/>
-      {/* <ApplicationFormPage/>
-      <LoginPage/>
+      </Route> 
+      <Route exact path ={"/ApplicationFormPage"}>
+      <ApplicationFormPage/>
+      </Route>
+      <Route exact path = {"/LoginPage"}>
+      <LoginPage/> 
+      </Route>
+      <Route exact path = {"/AdminHomePage"}>
       <AdminHomePage/>
+      </Route>
+      <Route exact path = {"/TripDetailPage"}>
       <TripDetailsPage/>
-      <CreateTripPage/> */}
-
-    </div>
+      </Route>
+      <Route exact path = {"/CreateTripPage"}>
+      <CreateTripPage/>
+      </Route>
+      </Switch>
+      </BrowserRouter>
   );
 }
 
-export default App;
+
