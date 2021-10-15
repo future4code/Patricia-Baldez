@@ -1,42 +1,32 @@
-import React from 'react';
-import HomePage from "./Pages/HomePage";
-import ListTripsPage from "./Pages/ListTripsPage";
-import ApplicationFormPage from "./Pages/ApplicationFormPage";
-import LoginPage from './Pages/LoginPage';
-import AdminHomePage from "./Pages/AdminHomePage";
-import TripDetailsPage from './Pages/TripDetailsPage';
-import CreateTripPage from './Pages/CreateTripPage';
-import {BrowserRouter, Switch, Route, Router} from "react-router-dom";
+import React from 'react'
+import Router from './router/Router'
+import styled from 'styled-components'
 
-export default function App() {
+
+
+const AppContainer=styled.div`
+bottom: 0px;
+margin:0px;
+width:100vw;
+height:100%;
+background-repeat: no-repeat;
+background-size:cover;
+
+`
+
+
+
+function App() {
   return (
-    <BrowserRouter>
-    <Switch>
-      
-      <Route exact path = {"/"}>
-      <HomePage/>
-      </Route>
-      <Route exact path ={"/ListTripsPage"}>
-      <ListTripsPage/>
-      </Route> 
-      <Route exact path ={"/ApplicationFormPage"}>
-      <ApplicationFormPage/>
-      </Route>
-      <Route exact path = {"/LoginPage"}>
-      <LoginPage/> 
-      </Route>
-      <Route exact path = {"/AdminHomePage"}>
-      <AdminHomePage/>
-      </Route>
-      <Route exact path = {"/TripDetailPage"}>
-      <TripDetailsPage/>
-      </Route>
-      <Route exact path = {"/CreateTripPage"}>
-      <CreateTripPage/>
-      </Route>
-      </Switch>
-      </BrowserRouter>
+    <AppContainer>
+        <Router/>
+    </AppContainer>
+       
   );
 }
+
+export default App;
+
+
 
 
