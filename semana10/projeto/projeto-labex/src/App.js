@@ -1,27 +1,48 @@
 import React from 'react'
-import Router from './router/Router'
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import styled from 'styled-components'
+import HomePage from "./pages/HomePage"
+import ApplicationPage from "./pages/ApplicationPage"
+import CreateTripPage from "./pages/CreateTripPage"
+import TripDetailPage from "./pages/TripDetailPage"
+import TripsListPage from "./pages/TripsListPage"
+import LoginPage from './pages/LoginPage'
+import { CssBaseline } from '@material-ui/core'
 
-
-
-const AppContainer=styled.div`
-bottom: 0px;
-margin:0px;
-width:100vw;
-height:100%;
-background-repeat: no-repeat;
-background-size:cover;
-
+const AppContainer = styled.div`
+display: flex;
+background: #7159C1;
+flex-direction: column;
+align-items: center;
+padding: 16px;
 `
-
-
-
-function App() {
+const App =() => {
   return (
+  <Router>
+    <CssBaseline/>
     <AppContainer>
-        <Router/>
+      <Switch>
+      <Route path="/login">
+          <LoginPage/>
+        </Route>
+        <Route path="/viagens/detalhe">
+          <TripDetailPage/>
+        </Route>
+        <Route path="/viagens/criar">
+          <CreateTripPage/>
+        </Route>
+        <Route path="/viagens">
+          <TripsListPage/>
+        </Route>
+        <Route path="/inscricao">
+          <ApplicationPage/>
+        </Route>
+        <Route path="/">
+          <HomePage/>
+        </Route>
+      </Switch>
     </AppContainer>
-       
+  </Router>   
   );
 }
 
