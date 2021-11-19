@@ -1,0 +1,27 @@
+1
+a. Qual método HTTP você deve utilizar para isso?
+  GET
+
+b. Como você indicaria a **entidade** que está sendo manipulada?
+  users ("/users") ou user ("/user")
+
+
+2
+a. Como você passou os parâmetros de type para a requisição? Por quê?
+  Via query params, pq é opcional passá-los
+
+b. Você consegue pensar em um jeito de garantir que apenas `types` válidos sejam utilizados?
+  Sim, fazendo a validação
+
+
+3
+a. Qual é o tipo de envio de parâmetro que costuma ser utilizado por aqui?
+  Query params
+
+
+4
+a. Mude o método do endpoint para `PUT`. O que mudou?
+  A funcionalidade não mudou porque quem dita o que ocorre é o código no handler, o que muda é a semântica do verbo/método na documentação da API e se ela segue os padrões estabelecidos pela comunidade
+
+b. Você considera o método `PUT` apropriado para esta transação? Por quê?
+  Não, porque a convenção dita que novos itens em entidades sejam aplicados pelo POST, enquanto PUT e PATCH sejam utilizados para edição completa e parcial, respectivamente
