@@ -1,0 +1,19 @@
+{
+  "name": "patricia-baldez",
+  "version": "1.0.0",
+  "description": "Alunos(as), sejam bem-vindos(as)!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/future4code/Patricia-Baldez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/future4code/Patricia-Baldez/issues"
+  },
+  "homepage": "https://github.com/future4code/Patricia-Baldez#readme"
+}
