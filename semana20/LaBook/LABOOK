@@ -22,6 +22,6 @@ FUNCIONALIDADES
 
     logar: (email, senha) => tokens
 
-    criarPost: (dadosPost) => void
+    criarPost: (dadosPost) => mensagem
 
     buscarPostPorId: Id => post
