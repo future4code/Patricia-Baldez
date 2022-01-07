@@ -7,14 +7,23 @@ usuarios
    nome
    email
    senha
+
    posts
+      idUsuario (FK)
+      id
       fotos 
       descricao
       dataCriacao
-
       tipo: "nome"  / "evento" 
-      curtidas
-      comentarios
+
+   curtidas
+      idUsuario (FK)
+      idPost (FK)
+
+   Comentarios
+      idUsuario (FK)
+      idPost (FK)
+      texto
 
 FUNCIONALIDADES
 
@@ -22,6 +31,6 @@ FUNCIONALIDADES
 
     logar: (email, senha) => tokens
 
-    criarPost: (dadosPost) => mensagem
+    criarPost: (dadosPost, token) => mensagem
 
     buscarPostPorId: Id => post
