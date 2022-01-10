@@ -13,7 +13,7 @@
     
     *b. Implemente  a função*
     
-    - Dicas
+  
         
         a. 
         
@@ -49,7 +49,7 @@
     
     c*. Faça um teste com um usuário com o saldo menor do que o valor de compra*
     
-    - Dicas
+  
         
         a.
         
