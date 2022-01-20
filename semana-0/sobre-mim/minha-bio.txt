@@ -1,1 +1,3 @@
-Meu nome e Patricia, tenho 35 anos, casada,3 filhos e estou muito feliz em fazer parte do time da Labenu.
+Sou Desenvolvedora Front-End com habilidades em ReactJS e metodologias ágeis- HTML - CSS - JavaScript - React.js (Hooks e Custom Hooks, Design System, Styled components, React Router, Global State e integração com API) - API REST - Git - GitHub - Jest - TypeScript - Node.js - SQL - MySQL - Amazon Web Services (AWS) - Unit Testing - Firebase. 
+
+Além disso possuo experiência mais de 13 anos em escritório contábil, em que atualmente estou encerrando  ciclo, para uma nova trajetória acadêmica, como Desenvolvimento Web Full Stack pelo bootcamp da Labenu, com o intuito de me tornar desenvolvedora full-stack, já realizei mais de 10 projetos práticos na área de front-end, entre eles estão: Labefy, LabEcommerce, WhatsLab, utilizando as tecnologias: React, JavaScript, HTML, CSS, Styled-Components, Hooks, API, Terminal, entre outros.
