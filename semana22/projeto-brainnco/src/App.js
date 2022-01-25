@@ -1,13 +1,21 @@
-import React from "react";
-import GlobalState from "./global/GlobalState";
-import Router from "./routes/Router";
+import {BrowserRouter as Router,Switch,Route,Redirect} from 'react-router-dom';
+import { LotteriesProvider } from './contexts/LotteriesContext';
+import { Main } from './components/Main';
 
-const App = () => {
+
+const App=()=> {
   return (
-    <GlobalState>
-      <Router/>
-    </GlobalState>
-  )
+    <Router>
+      <LotteriesProvider>
+        <Switch>
+          <Route path="/:id" component={Main} />
+          <Route exact path="/">
+            <Redirect to="/0" />
+          </Route>
+        </Switch>
+      </LotteriesProvider>
+    </Router>
+  );
 }
 
 export default App;
