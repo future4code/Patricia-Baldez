@@ -1,6 +1,8 @@
-# Exercício de Front-end cases da Labenu.
+# Exercício de Front-end cases da Labenu(Brainnco).
 
-<img src="https://user-images.githubusercontent.com/2853428/116301437-65c01a00-a776-11eb-9ae8-7d6d9cf3d128.png">
+### Link do surge: https://red-arch.surge.sh/
+
+<img src= "src/img/tela LOTERIAS.png">
 
 ## Introdução
 
