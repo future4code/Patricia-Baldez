@@ -1,0 +1,60 @@
+.header {
+    background-color: #2D0C5E;
+    box-sizing: border-box;
+    height: 600px;
+    padding: 72px 112px 46px;
+    width: 100%;
+    display: flex;
+}
+
+.avatar_container {
+    height: 574px;
+    width: 383px;
+    
+}
+
+.avatar_container img {
+    width: 100%;
+}
+
+.details_container {
+    margin-left: 33px;
+    color: white;
+    max-width: 696px;
+}
+
+.details_container h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.details_container h2 {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details_img{
+    width: 20em;
+    margin: 3em 4em;
+}
+.details_text{
+    width: 50em;
+    margin: 1em 5em;
+}
+
+.details_icon{
+    text-align: right;
+    width: 60px;
+    height: 60px;
+    padding: 6px;
+}
+
+.details_trailer{
+    margin-top: 100px;
+    margin:57px;
+    padding: 50px;
+
+}
+
+ 
