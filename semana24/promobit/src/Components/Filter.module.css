@@ -1,0 +1,20 @@
+.filter{
+    text-align: center;
+    color: #FFF ;
+    padding-top: 4em;
+    font-size: 0.8em;
+    width: 60%; 
+}
+
+.button {
+    padding: 1em;
+    margin: 1em;
+    
+}
+
+.button button {
+    padding: 0.2em;
+    margin: 0.2em;
+    font-weight: bold;
+    font-size: 1em;
+}

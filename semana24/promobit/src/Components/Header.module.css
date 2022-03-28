@@ -1,0 +1,10 @@
+.header_start{
+    background-color: #5C16C5;
+    width: 100%;
+}
+.header_img {
+    width: 10em;
+    color: #FFFFFF;
+    margin: 1em 5em;
+    cursor: pointer;
+}
