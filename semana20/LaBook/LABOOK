@@ -1,0 +1,36 @@
+LABOOK
+
+ESTRUTURA DE DADOS
+
+usuarios
+   id
+   nome
+   email
+   senha
+
+   posts
+      idUsuario (FK)
+      id
+      fotos 
+      descricao
+      dataCriacao
+      tipo: "nome"  / "evento" 
+
+   curtidas
+      idUsuario (FK)
+      idPost (FK)
+
+   Comentarios
+      idUsuario (FK)
+      idPost (FK)
+      texto
+
+FUNCIONALIDADES
+
+    cadastrar:(dadosUsuario) => token
+
+    logar: (email, senha) => tokens
+
+    criarPost: (dadosPost, token) => mensagem
+
+    buscarPostPorId: Id => post
